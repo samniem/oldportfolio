@@ -1,0 +1,16 @@
+.Container{
+    margin: auto;
+    width: 90%;
+    overflow: hidden;
+}
+
+.Container p{
+    padding:20px;
+    margin: auto;
+    text-align: justify
+}
+
+.Container img{
+    width: 90%;
+    margin:20px;
+}

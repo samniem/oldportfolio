@@ -1,0 +1,34 @@
+.NavContainer{
+    width:100%;
+    border-bottom:7px black solid;
+    padding: 20px;
+}
+
+.BG{
+    width: 100%;
+    min-height: 100px;
+    background-image: url('./images/header3.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:0;
+    margin-bottom:10px;
+}
+
+.NavStyle {
+    padding:10px 5px 15px 5px;
+    margin-left: 3%;
+}
+
+.LinkStyle{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    padding: 15px;
+}
+
+@media(max-width:600px){
+    .LinkStyle{
+        display: block;
+    }
+}
